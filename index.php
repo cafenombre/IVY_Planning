@@ -1,9 +1,11 @@
   <html>
-  <?php include('header.php'); //Version 0.3.1 ?>
+  <?php 
+  define('ROOT_PATH', dirname(__DIR__) . '/');
+  include('header.php'); //Version 0.3.1 ?>
    <body>
       <div id="wrapper">
         <?php
-          include 'D:/DEV/xampp/htdocs/planning/models/reservations_model.php'; //Fuck that I can't include a relative path
+          include ROOT_PATH.'/planning/models/reservations_model.php'; //Fuck that I can't include a relative path
         ?>
    
         <ul class="collection" id="ulValues">
@@ -25,6 +27,7 @@
                   <table id="allocation_table">
 
                   <!-- FAIS UN TALBEAU GROS CON -->
+                  <!-- bah voilà c'était pas compliqué -->
                     <tr>
                       <th></th>
                       <th>Name</th>

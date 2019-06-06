@@ -1,5 +1,5 @@
 <?php
-require_once 'D:/DEV/xampp/htdocs/planning/config/db.php';
+require_once ROOT_PATH.'/planning/config/db.php';
 
 
 
