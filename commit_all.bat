@@ -7,6 +7,5 @@ set /p commitmsg="Commit message :"
 git add -A
 git commit -m "%commitmsg%"
 git push origin master
-::echo cmsg: %commitmsg%
 
 pause
