@@ -1,5 +1,5 @@
     <?php
-require_once ROOT_PATH.'/planning/config/db.php';
+require_once dirname(__DIR__) . '/config/db.php';
 
 
 //Check if there is modifications and update/add in the Database

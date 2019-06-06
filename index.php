@@ -1,11 +1,10 @@
   <html>
   <?php 
-  define('ROOT_PATH', dirname(__DIR__) . '/');
   include('header.php'); //Version 0.3.1 ?>
    <body>
       <div id="wrapper">
         <?php
-          include ROOT_PATH.'/planning/models/reservations_model.php'; //Fuck that I can't include a relative path
+          include dirname(__DIR__) . '/planning/models/reservations_model.php'; //Fuck that I can't include a relative path
         ?>
    
         <ul class="collection" id="ulValues">
